@@ -72,10 +72,13 @@
             </Grid>
             <Label 
                 HorizontalAlignment="Center"
-                Content="Current Player"/>
+                Content="Current Player"
+                FontWeight="Bold"
+                FontSize="16"/>
             <Label 
                 HorizontalAlignment="Center"
-                Content="{Binding CurrentPlayer}"/>
+                Content="{Binding CurrentPlayer}"
+                FontSize="16"/>
         </StackPanel>
     </Grid>
 </Window>
